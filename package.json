@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/public4/ci-test/issues"
   },
-  "homepage": "https://github.com/public4/ci-test#readme"
+  "homepage": "https://github.com/public4/ci-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
