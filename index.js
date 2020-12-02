@@ -11,3 +11,7 @@ app.listen(PORT, () => {
 app.get("/", (req, res, next) => {
   res.send("Hello, CI!");
 });
+
+app.get("/index.json", (req, res, next) => {
+  res.send("{message: 1}");
+});
