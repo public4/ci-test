@@ -12,6 +12,13 @@ app.get("/", (req, res, next) => {
   res.send("Hello, CI! All work Okayyy and gooood!");
 });
 
+const j = {
+  message: "OK",
+  status: 200,
+  value: "some-long-value",
+  PORT,
+};
+
 app.get("/index.json", (req, res, next) => {
-  res.send("{message: 1}");
+  res.send(JSON.stringify(j));
 });
