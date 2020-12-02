@@ -9,7 +9,7 @@ app.listen(PORT, () => {
 });
 
 app.get("/", (req, res, next) => {
-  res.send("Hello, CI!");
+  res.send("Hello, CI! All work Okayyy");
 });
 
 app.get("/index.json", (req, res, next) => {
